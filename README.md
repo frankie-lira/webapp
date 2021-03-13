@@ -1,6 +1,6 @@
 # ISO Health
 # HACKMERCED IV - *WebApp*
-Submitted by: **Francisco Lira, Joshua Phelps, Adrian and Carl**
+Submitted by: **Francisco Lira, Joshua Phelps, Adrian Buitron and Carl**
 
 **ISO Health** is a webapp that helps the wellbeing for later-in-life women and men. This webapp will help us collect data through surveys that will then help users be connected with the resources that they need and will also be connecting communities and bringing them closer in order to reduce isolation and other metal health concerns. Our project also hopes to the increase in awareness of patients suffering that can then reduce the numbers of thosethat are affected.
 
