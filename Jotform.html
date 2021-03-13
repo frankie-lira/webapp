@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="wildStyle.css">
+    <!-- Creation of the Open Button and the Tabs that appear -->
+    <button class="s_openbutton" onclick="s_open()">&#9776;</button>
+        <div class="s_bar" style="display:none;z-index:4" width="25%" id="mySidebar">
+            <a class="s_closebutton" onclick="s_close()">Close X</a>
+            <a href="#" >Privacy</a>
+            <a href="#" >Support</a>
+            <!--<a href="Hotline.html" >Contact Us</a>-->
+            <a href="#">Services</a>
+        </div>
+    <!-- Title Page-->
+    <header>
+        <h1>Survey Tool</h1>
+    </header>
+
+    <!-- JotForm Implementation of Survey -->
+    <div class="Survey" >
+        <script type="text/javascript" src="https://form.jotform.com/210717214762047"></script>
+    </div>
+    
+
+    <!--JavaScript Implementation of open and close functions-->
+    <script>
+        function s_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("mySidebar").style.width = "25%";
+        
+            
+        }
+
+        function s_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</html>
