@@ -26,7 +26,7 @@ Here's a walkthrough of the webapp:
 
 Video Walkthrough:
 
-![](https://i.imgur.com/llAs2UG.gif)
+![](Link)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
