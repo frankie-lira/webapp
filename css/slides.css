@@ -59,6 +59,12 @@ html {
  *
  *
  */
+
+
+ul.a { 
+  list-style-type: circle;
+}
+
 html {
   margin: 0;
   padding: 0;
