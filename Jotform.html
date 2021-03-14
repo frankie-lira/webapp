@@ -1,5 +1,29 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            a{ /* a stands for link */
+                line-height:1;
+                color:white;
+                padding:15px 40px;
+                background-color:rgb(0, 119, 255);
+                text-decoration:none;
+                display:inline-block;
+                font-size:large;
+                border-radius:12px;
+                box-shadow: 4px 4px black;
+                text-align:center;
+            }
+            a:active {
+                transform: translateY(4px);
+                box-shadow: 4px 0px black;
+            }
+            a:hover{ /* hover means when your mouse is hovering over the link */
+                background-color:orange;
+                color:black;
+            }
+        </style>
+    </head>
     <link rel="stylesheet" href="wildStyle.css">
     <!-- Creation of the Open Button and the Tabs that appear -->
     <button class="s_openbutton" onclick="s_open()">&#9776;</button>
@@ -12,13 +36,15 @@
         </div>
     <!-- Title Page-->
     <header>
-        <h1>Survey Tool</h1>
+        <h1>Survey Tool</h1> 
     </header>
 
     <!-- JotForm Implementation of Survey -->
     <div class="Survey" >
         <script type="text/javascript" src="https://form.jotform.com/jsform/210717214762047"></script>
     </div>
+
+    <a href="webapp.html">Back to main page</a>
     
 
     <!--JavaScript Implementation of open and close functions-->

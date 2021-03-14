@@ -164,7 +164,7 @@ html {
   background-color:white;
   color:black;
   margin-top: 125px;
-
+  cursor:pointer;
 }
 .s_bar a{
   text-decoration: none;
@@ -172,7 +172,7 @@ html {
   display: block;
   background-color:white;
   color:black;
-  
+  cursor:pointer;
 }
 .H_line{
   text-align: center;
