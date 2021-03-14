@@ -161,7 +161,7 @@ html {
   width: 250px;
   float: left;
   display: block;
-  background-color:white;
+  background-color:transparent;
   color:black;
   margin-top: 125px;
   cursor:pointer;
@@ -170,9 +170,12 @@ html {
   text-decoration: none;
   font-size: 30px;
   display: block;
-  background-color:white;
+  background-color:whitesmoke;
   color:black;
   cursor:pointer;
+}
+.s_bar a:hover{
+  background-color:orange;
 }
 .H_line{
   text-align: center;
